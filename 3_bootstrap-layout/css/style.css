@@ -1,0 +1,44 @@
+/* IMPORTANTE -> COMENZAR SIEMPRE CON ESTA REGLA */
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.menu img {
+    width: 200px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
